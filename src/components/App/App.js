@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from '../../assets/images/logo.svg';
 import './App.css';
+import mondongo from '../../assets/images/mondongo.jpg'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <img src={mondongo}/>
       </header>
     </div>
   );
